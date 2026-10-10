@@ -518,8 +518,7 @@ jobs:
     # a delayed descendant before an immediate retry can reuse the same root.
     # The runtime scope includes daemon/agent sources and their Go dependencies.
     needs: changes
-    # Windows only on manual dispatch (GitHub-hosted Windows draws paid minutes; no Ubicloud Windows)
-    if: ${{ github.event_name == 'workflow_dispatch' && needs.changes.outputs.runtime == 'true' }}
+    if: ${{ needs.changes.outputs.runtime == 'true' }}
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -783,8 +782,7 @@ jobs:
   # are now the only finalization pass, replacing the single-count merge variant.
   macos-runtime:
     needs: changes
-    # macOS only on manual dispatch (paid GitHub-hosted minutes)
-    if: ${{ github.event_name == 'workflow_dispatch' && needs.changes.outputs.full == 'true' }}
+    if: ${{ needs.changes.outputs.full == 'true' }}
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v6
