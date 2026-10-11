@@ -45,9 +45,6 @@ catalogs:
     clsx:
       specifier: ^2.1.1
       version: 2.1.1
-    eslint-plugin-i18next:
-      specifier: ^6.1.4
-      version: 6.1.4
     i18next:
       specifier: ^26.0.8
       version: 26.0.8
@@ -1169,7 +1166,7 @@ importers:
         version: 9.39.4(jiti@2.7.0)
       eslint-plugin-i18next:
         specifier: 'catalog:'
-        version: 6.1.4
+        version: 6.1.5
       jsdom:
         specifier: 'catalog:'
         version: 29.0.1(@noble/hashes@1.8.0)
@@ -6442,8 +6439,8 @@ packages:
     peerDependencies:
       eslint: '>=8.10'
 
-  eslint-plugin-i18next@6.1.4:
-    resolution: {integrity: sha512-BekXQu1VaVFkREepQGsntBYoKuPsf89V16n/s2xpKMtsw0/lDseds1wBhj3RtO1dKnHsfTPaG+xul1vF0R7LEQ==}
+  eslint-plugin-i18next@6.1.5:
+    resolution: {integrity: sha512-xCTfstbK9ZpQ6UFT5S1s6zbZMhKn2o2jRSQYiU2UkV7wt8y1m3WjkUYGkGlipgRdFInYI9+LAqE+JQU/L73HmA==}
     engines: {node: '>=18.10.0'}
 
   eslint-plugin-import-x@4.16.2:
@@ -16994,9 +16991,8 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-i18next@6.1.4:
+  eslint-plugin-i18next@6.1.5:
     dependencies:
-      lodash: 4.18.1
       requireindex: 1.1.0
 
   eslint-plugin-import-x@4.16.2(@typescript-eslint/utils@8.58.1(eslint@9.39.4(jiti@1.21.7))(typescript@5.9.3))(eslint-import-resolver-node@0.3.10)(eslint@9.39.4(jiti@1.21.7)):
