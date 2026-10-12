@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     '@formatjs/intl-localematcher':
-      specifier: ^0.8.4
-      version: 0.8.4
+      specifier: ^0.9.0
+      version: 0.9.0
     '@tailwindcss/postcss':
       specifier: ^4
       version: 4.2.2
@@ -21,9 +21,18 @@ catalogs:
     '@tanstack/react-table':
       specifier: ^8.21.3
       version: 8.21.3
+    '@tanstack/react-virtual':
+      specifier: ^3.13.0
+      version: 3.14.17
     '@testing-library/jest-dom':
       specifier: ^6.9.1
       version: 6.9.1
+    '@testing-library/react':
+      specifier: ^16.3.2
+      version: 16.3.3
+    '@testing-library/user-event':
+      specifier: ^14.6.1
+      version: 14.6.7
     '@types/node':
       specifier: ^25.0.10
       version: 25.5.0
@@ -69,6 +78,9 @@ catalogs:
     react-qr-code:
       specifier: ^2.0.18
       version: 2.0.21
+    react-virtuoso:
+      specifier: ^4.14.0
+      version: 4.18.16
     rehype-katex:
       specifier: ^7.0.1
       version: 7.0.1
@@ -90,12 +102,15 @@ catalogs:
     vitest:
       specifier: ^4.1.0
       version: 4.1.11
+    yaml:
+      specifier: ^2.6.0
+      version: 2.9.1
     zod:
       specifier: ^4.1.5
       version: 4.3.6
     zustand:
       specifier: ^5.0.0
-      version: 5.0.15
+      version: 5.0.12
 
 overrides:
   '@types/react': ^19.2.0
@@ -711,7 +726,7 @@ importers:
     dependencies:
       '@formatjs/intl-localematcher':
         specifier: 'catalog:'
-        version: 0.8.4
+        version: 0.9.0
       '@tanstack/react-query':
         specifier: 'catalog:'
         version: 5.96.2(react@19.2.3)
@@ -2470,14 +2485,14 @@ packages:
   '@fontsource-variable/source-serif-4@5.2.9':
     resolution: {integrity: sha512-PPcxjLFk/fS0WHg79pDM2YNvz61kC+oYZ5cWZZyCS0DHpJncmuYOuiZAsvj4tDxlWPBEvxxcRLQQNmSaRbPkqw==}
 
-  '@formatjs/fast-memoize@3.1.2':
-    resolution: {integrity: sha512-vPnriihkfK0lzoQGaXq+qXH23VsYyansRTkTgo2aTG0k1NjLFyZimFVdfj4C9JkSE5dm7CEngcQ5TTc1yAyBfQ==}
+  '@formatjs/fast-memoize@3.1.7':
+    resolution: {integrity: sha512-zXfhLpvA6T7+efdt9JLbBwZ00tT7NsBMDVnDu8rpHeNNv8KfRZAMo2gkG0k9lK/Nzc//3kJ9pImsfuJxk3KhUA==}
 
   '@formatjs/intl-localematcher@0.6.2':
     resolution: {integrity: sha512-XOMO2Hupl0wdd172Y06h6kLpBz6Dv+J4okPLl4LPtzbr8f66WbIoy4ev98EBuZ6ZK4h5ydTN6XneT4QVpD7cdA==}
 
-  '@formatjs/intl-localematcher@0.8.4':
-    resolution: {integrity: sha512-J51dAnynnqJdVUEXidHoIWn+qYve+yNQEgmFk9Dyfr3p0okzm+5QhQ+9QmsMz08+BeWTVpc1HadIiLfZmRYbAQ==}
+  '@formatjs/intl-localematcher@0.9.0':
+    resolution: {integrity: sha512-Z7TD3ssNry1Av1dVDoq/mzpxGyxqWwU0ClWEo+BB3k0JQTeQvUGmeK9WZGYvlqStS0UqkaKXk3dfjsb6NaHAxw==}
 
   '@hono/node-server@1.19.11':
     resolution: {integrity: sha512-dr8/3zEaB+p0D2n/IUrlPF1HZm586qgJNXK1a9fhg/PzdtkK7Ksd5l312tJX2yBuALqDYBlG20QEbayqPyxn+g==}
@@ -12128,7 +12143,7 @@ snapshots:
 
   '@base-ui/utils@0.2.6(@types/react@19.2.14)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
-      '@babel/runtime': 7.29.2
+      '@babel/runtime': 7.29.10
       '@floating-ui/utils': 0.2.11
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
@@ -12923,15 +12938,15 @@ snapshots:
 
   '@fontsource-variable/source-serif-4@5.2.9': {}
 
-  '@formatjs/fast-memoize@3.1.2': {}
+  '@formatjs/fast-memoize@3.1.7': {}
 
   '@formatjs/intl-localematcher@0.6.2':
     dependencies:
       tslib: 2.8.1
 
-  '@formatjs/intl-localematcher@0.8.4':
+  '@formatjs/intl-localematcher@0.9.0':
     dependencies:
-      '@formatjs/fast-memoize': 3.1.2
+      '@formatjs/fast-memoize': 3.1.7
 
   '@hono/node-server@1.19.11(hono@4.12.8)':
     dependencies:
@@ -19657,7 +19672,7 @@ snapshots:
 
   metro-runtime@0.84.5:
     dependencies:
-      '@babel/runtime': 7.29.2
+      '@babel/runtime': 7.29.10
       flow-enums-runtime: 0.0.6
 
   metro-runtime@0.84.6:
