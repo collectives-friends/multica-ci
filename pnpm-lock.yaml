@@ -101,7 +101,7 @@ catalogs:
       version: 4.3.6
     zustand:
       specifier: ^5.0.0
-      version: 5.0.12
+      version: 5.0.15
 
 overrides:
   '@types/react': ^19.2.0
@@ -14710,7 +14710,9 @@ snapshots:
       metro-runtime: 0.84.6
     transitivePeerDependencies:
       - '@babel/core'
+      - bufferutil
       - supports-color
+      - utf-8-validate
 
   '@react-native/normalize-colors@0.74.89': {}
 
