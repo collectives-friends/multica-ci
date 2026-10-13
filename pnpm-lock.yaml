@@ -21,9 +21,6 @@ catalogs:
     '@tanstack/react-table':
       specifier: ^8.21.3
       version: 8.21.3
-    '@tanstack/react-virtual':
-      specifier: ^3.13.0
-      version: 3.14.17
     '@testing-library/jest-dom':
       specifier: ^6.9.1
       version: 6.9.1
@@ -828,7 +825,7 @@ importers:
         version: 8.21.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@tanstack/react-virtual':
         specifier: 'catalog:'
-        version: 3.14.17(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        version: 3.14.18(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       class-variance-authority:
         specifier: 'catalog:'
         version: 0.7.1
@@ -967,7 +964,7 @@ importers:
         version: 8.21.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@tanstack/react-virtual':
         specifier: 'catalog:'
-        version: 3.14.17(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        version: 3.14.18(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@tiptap/core':
         specifier: 3.31.4
         version: 3.31.4(@tiptap/pm@3.31.4)
@@ -4638,8 +4635,8 @@ packages:
       react: '>=16.8'
       react-dom: '>=16.8'
 
-  '@tanstack/react-virtual@3.14.17':
-    resolution: {integrity: sha512-b7b5LwydgQAWcsAWEZyd3iZkN5/QcC6S0K5E1zNheyFoSZl7E78foepGeDHlX2+JuXilA+VIGGFsUYPFddOrig==}
+  '@tanstack/react-virtual@3.14.18':
+    resolution: {integrity: sha512-zuSuxQTfeLhvdS0LOi1MjQ/FrG4MVeVT2w+Iy33fviGFqjpWV9kbyNQOrNJXckyO0iNko2NlW3TaThcg2Cz9qA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -4648,8 +4645,8 @@ packages:
     resolution: {integrity: sha512-ldZXEhOBb8Is7xLs01fR3YEc3DERiz5silj8tnGkFZytt1abEvl/GhUmCE0PMLaMPTa3Jk4HbKmRlHmu+gCftg==}
     engines: {node: '>=12'}
 
-  '@tanstack/virtual-core@3.19.2':
-    resolution: {integrity: sha512-Ch+e8t097FdTfuihfRwBMqz/OfRZKHOH/C213dbM1lXDZ8bv6r330Bcc9k9XCrP6NkoMYy0/ZCHcddOAPihW4w==}
+  '@tanstack/virtual-core@3.19.3':
+    resolution: {integrity: sha512-jPxPiyBaUn+IChc8sfYNKn7B2SCOxYO1mCJrh7U4ldmrMxun19q/iw+jHRYk2cR/KNEjW8ABJrufX41m342Sqw==}
 
   '@testing-library/dom@10.4.1':
     resolution: {integrity: sha512-o4PXJQidqJl82ckFaXUeoAW+XysPLauYI43Abki5hABd853iMhitooc6znOnczgbTYmEP6U6/y1ZyKAIsvMKGg==}
@@ -15151,15 +15148,15 @@ snapshots:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  '@tanstack/react-virtual@3.14.17(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+  '@tanstack/react-virtual@3.14.18(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
-      '@tanstack/virtual-core': 3.19.2
+      '@tanstack/virtual-core': 3.19.3
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
   '@tanstack/table-core@8.21.3': {}
 
-  '@tanstack/virtual-core@3.19.2': {}
+  '@tanstack/virtual-core@3.19.3': {}
 
   '@testing-library/dom@10.4.1':
     dependencies:
