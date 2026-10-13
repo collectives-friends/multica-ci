@@ -78,9 +78,6 @@ catalogs:
     react-qr-code:
       specifier: ^2.0.18
       version: 2.0.21
-    react-virtuoso:
-      specifier: ^4.14.0
-      version: 4.18.16
     rehype-katex:
       specifier: ^7.0.1
       version: 7.0.1
@@ -1090,7 +1087,7 @@ importers:
         version: 4.7.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       react-virtuoso:
         specifier: 'catalog:'
-        version: 4.18.16(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        version: 4.18.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       recharts:
         specifier: 3.8.0
         version: 3.8.0(@types/react@19.2.14)(react-dom@19.2.3(react@19.2.3))(react-is@19.2.6)(react@19.2.3)(redux@5.0.1)
@@ -10053,8 +10050,8 @@ packages:
       '@types/react':
         optional: true
 
-  react-virtuoso@4.18.16:
-    resolution: {integrity: sha512-BumVOhd0mNKlBkqeHojlLP8IRlJ2oYU7haU92GvBSlSzcdlWUAxIu1gphKm5gLQm07gMzmoQRXdVQeiG4TKSeQ==}
+  react-virtuoso@4.18.19:
+    resolution: {integrity: sha512-dewyZisA5IiQTldh7eHM5KpI+qxi0nKRVYi2iM01XmPkNa5tjvVUKJKAIc6ted1hAK1/NFlXuhXpVYqGHHdcdQ==}
     peerDependencies:
       react: '>=16 || >=17 || >= 18 || >= 19'
       react-dom: '>=16 || >=17 || >= 18 || >=19'
@@ -21976,7 +21973,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.2.14
 
-  react-virtuoso@4.18.16(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
+  react-virtuoso@4.18.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
