@@ -51,12 +51,12 @@ catalogs:
     i18next:
       specifier: ^26.0.8
       version: 26.0.8
+    jsdom:
+      specifier: ^29.0.1
+      version: 29.1.1
     katex:
       specifier: ^0.19.0
       version: 0.19.0
-    lucide-react:
-      specifier: ^1.0.1
-      version: 1.0.1
     mermaid:
       specifier: ^11.14.0
       version: 11.16.1
@@ -107,7 +107,7 @@ catalogs:
       version: 4.3.6
     zustand:
       specifier: ^5.0.0
-      version: 5.0.12
+      version: 5.0.15
 
 overrides:
   '@types/react': ^19.2.0
@@ -202,7 +202,7 @@ importers:
         version: 5.0.0
       lucide-react:
         specifier: 'catalog:'
-        version: 1.0.1(react@19.2.3)
+        version: 1.57.0(@types/react@19.2.14)(react@19.2.3)
       motion:
         specifier: ^12.38.0
         version: 12.38.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -290,16 +290,16 @@ importers:
         version: link:../../packages/ui
       fumadocs-core:
         specifier: ^15.5.2
-        version: 15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
+        version: 15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
       fumadocs-mdx:
         specifier: ^12.0.3
-        version: 12.0.3(fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(vite@8.0.16(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.47.1)(yaml@2.9.1))
+        version: 12.0.3(fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(vite@8.0.16(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.47.1)(yaml@2.9.1))
       fumadocs-ui:
         specifier: ^15.5.2
-        version: 15.8.5(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(tailwindcss@4.2.2)
+        version: 15.8.5(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(tailwindcss@4.2.2)
       lucide-react:
         specifier: 'catalog:'
-        version: 1.0.1(react@19.2.3)
+        version: 1.57.0(@types/react@19.2.14)(react@19.2.3)
       mermaid:
         specifier: ^11.14.0
         version: 11.17.2
@@ -574,7 +574,7 @@ importers:
         version: 26.0.8(typescript@5.9.3)
       lucide-react:
         specifier: 'catalog:'
-        version: 1.0.1(react@19.2.3)
+        version: 1.57.0(@types/react@19.2.14)(react@19.2.3)
       react:
         specifier: 'catalog:'
         version: 19.2.3
@@ -653,13 +653,13 @@ importers:
         version: 17.4.2
       fumadocs-core:
         specifier: ^15.5.2
-        version: 15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
+        version: 15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
       fumadocs-mdx:
         specifier: ^12.0.3
-        version: 12.0.3(fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
+        version: 12.0.3(fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
       lucide-react:
         specifier: 'catalog:'
-        version: 1.0.1(react@19.2.3)
+        version: 1.57.0(@types/react@19.2.14)(react@19.2.3)
       next:
         specifier: ^16.3.8
         version: 16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -858,7 +858,7 @@ importers:
         version: 5.0.2
       lucide-react:
         specifier: 'catalog:'
-        version: 1.0.1(react@19.2.3)
+        version: 1.57.0(@types/react@19.2.14)(react@19.2.3)
       next-themes:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -8759,6 +8759,15 @@ packages:
     resolution: {integrity: sha512-lih7tKEczCYOQjVEzpFuxEuNzlwf+1yhvlMlEkGWJM3va8Pugv8bYXc/pRtcjPncaP7k84X0Pt/71ufxvqEPtQ==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  lucide-react@1.57.0:
+    resolution: {integrity: sha512-bXFZEucYhAzLD62Jse76AbTR6LiSLTn3Tqir2f1n8rZrWAdLodYy7jnRZSPIT89dRLk/IseMOUWG82wJtTyTTw==}
+    peerDependencies:
+      '@types/react': ^19.2.0
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
 
   lz-string@1.5.0:
     resolution: {integrity: sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==}
@@ -18915,7 +18924,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3):
+  fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3):
     dependencies:
       '@formatjs/intl-localematcher': 0.6.2
       '@orama/orama': 3.1.18
@@ -18937,7 +18946,7 @@ snapshots:
       unist-util-visit: 5.1.0
     optionalDependencies:
       '@types/react': 19.2.14
-      lucide-react: 1.0.1(react@19.2.3)
+      lucide-react: 1.57.0(@types/react@19.2.14)(react@19.2.3)
       next: 15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
@@ -18945,7 +18954,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3):
+  fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3):
     dependencies:
       '@formatjs/intl-localematcher': 0.6.2
       '@orama/orama': 3.1.18
@@ -18967,7 +18976,7 @@ snapshots:
       unist-util-visit: 5.1.0
     optionalDependencies:
       '@types/react': 19.2.14
-      lucide-react: 1.0.1(react@19.2.3)
+      lucide-react: 1.57.0(@types/react@19.2.14)(react@19.2.3)
       next: 16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
@@ -18975,14 +18984,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fumadocs-mdx@12.0.3(fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(vite@8.0.16(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.47.1)(yaml@2.9.1)):
+  fumadocs-mdx@12.0.3(fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(vite@8.0.16(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.47.1)(yaml@2.9.1)):
     dependencies:
       '@mdx-js/mdx': 3.1.1
       '@standard-schema/spec': 1.1.0
       chokidar: 4.0.3
       esbuild: 0.25.12
       estree-util-value-to-estree: 3.5.0
-      fumadocs-core: 15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
+      fumadocs-core: 15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
       js-yaml: 4.1.1
       lru-cache: 11.2.7
       mdast-util-to-markdown: 2.1.2
@@ -19001,14 +19010,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fumadocs-mdx@12.0.3(fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3):
+  fumadocs-mdx@12.0.3(fumadocs-core@15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3):
     dependencies:
       '@mdx-js/mdx': 3.1.1
       '@standard-schema/spec': 1.1.0
       chokidar: 4.0.3
       esbuild: 0.25.12
       estree-util-value-to-estree: 3.5.0
-      fumadocs-core: 15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
+      fumadocs-core: 15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@16.4.0(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
       js-yaml: 4.1.1
       lru-cache: 11.2.7
       mdast-util-to-markdown: 2.1.2
@@ -19026,7 +19035,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fumadocs-ui@15.8.5(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(tailwindcss@4.2.2):
+  fumadocs-ui@15.8.5(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(tailwindcss@4.2.2):
     dependencies:
       '@radix-ui/react-accordion': 1.2.12(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@radix-ui/react-collapsible': 1.1.12(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -19039,7 +19048,7 @@ snapshots:
       '@radix-ui/react-slot': 1.2.4(@types/react@19.2.14)(react@19.2.3)
       '@radix-ui/react-tabs': 1.1.13(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       class-variance-authority: 0.7.1
-      fumadocs-core: 15.8.5(@types/react@19.2.14)(lucide-react@1.0.1(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
+      fumadocs-core: 15.8.5(@types/react@19.2.14)(lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3))(next@15.5.27(@opentelemetry/api@1.9.1)(@playwright/test@1.64.0)(@types/node@26.6.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-router@7.14.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
       lodash.merge: 4.6.2
       next-themes: 0.4.6(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       postcss-selector-parser: 7.1.1
@@ -20139,6 +20148,12 @@ snapshots:
   lucide-react@1.0.1(react@19.2.3):
     dependencies:
       react: 19.2.3
+
+  lucide-react@1.57.0(@types/react@19.2.14)(react@19.2.3):
+    dependencies:
+      react: 19.2.3
+    optionalDependencies:
+      '@types/react': 19.2.14
 
   lz-string@1.5.0: {}
 
