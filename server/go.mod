@@ -29,7 +29,7 @@ require (
 	github.com/slack-go/slack v0.29.0
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
-	github.com/tdewolff/parse/v2 v2.8.16
+	github.com/tdewolff/parse/v2 v2.8.17
 	github.com/yuin/goldmark v1.8.6
 	golang.org/x/sync v0.23.0
 	golang.org/x/sys v0.48.0
