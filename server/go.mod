@@ -17,7 +17,7 @@ require (
 	github.com/gorilla/websocket v1.5.3
 	github.com/jackc/pgx/v5 v5.11.0
 	github.com/lmittmann/tint v1.2.1
-	github.com/mattn/go-shellwords v1.0.14
+	github.com/mattn/go-shellwords v1.0.16
 	github.com/oklog/ulid/v2 v2.1.2
 	github.com/openai/openai-go/v3 v3.61.0
 	github.com/pelletier/go-toml/v2 v2.4.3
