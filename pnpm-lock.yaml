@@ -59,7 +59,7 @@ catalogs:
       version: 0.19.0
     lucide-react:
       specifier: ^1.0.1
-      version: 1.57.0
+      version: 1.0.1
     mermaid:
       specifier: ^11.14.0
       version: 11.17.2
@@ -110,7 +110,7 @@ catalogs:
       version: 4.3.6
     zustand:
       specifier: ^5.0.0
-      version: 5.0.15
+      version: 5.0.12
 
 overrides:
   '@types/react': ^19.2.0
@@ -172,10 +172,10 @@ importers:
         version: 3.2.2(react@19.2.3)
       '@electron-toolkit/preload':
         specifier: ^3.0.2
-        version: 3.0.2(electron@41.10.7)
+        version: 3.0.2(electron@42.11.18)
       '@electron-toolkit/utils':
         specifier: ^4.0.0
-        version: 4.0.0(electron@41.10.7)
+        version: 4.0.0(electron@42.11.18)
       '@fontsource-variable/geist-mono':
         specifier: ^5.3.0
         version: 5.3.0
@@ -262,8 +262,8 @@ importers:
         specifier: ^5.1.1
         version: 5.2.0(vite@8.3.4(@types/node@25.9.9)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.47.1)(yaml@2.9.1))
       electron:
-        specifier: ^41.0.0
-        version: 41.10.7
+        specifier: ^42.0.0
+        version: 42.11.18
       electron-builder:
         specifier: ^26.0.12
         version: 26.15.3(electron-builder-squirrel-windows@26.8.1)
@@ -6722,8 +6722,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@41.10.7:
-    resolution: {integrity: sha512-AqIiefddlf5i+HYCGatr8VlBuEbWJpad4/yloBFYcMB2r57j7xhW1ogiJ+BfA5kxQyfmSs5yjwy54Me+wJn1jw==}
+  electron@42.11.18:
+    resolution: {integrity: sha512-hbzodG06x/l7uq+oeyob5ugv6qZBmJRWC7Uto5QEE99xSHUARz6d+++Rz+79T/ssTYTQkONW4ciTTcJuAbXKIQ==}
     engines: {node: '>= 22.12.0'}
     hasBin: true
 
@@ -12784,17 +12784,17 @@ snapshots:
 
   '@electron-internal/extract-zip@1.0.5': {}
 
-  '@electron-toolkit/preload@3.0.2(electron@41.10.7)':
+  '@electron-toolkit/preload@3.0.2(electron@42.11.18)':
     dependencies:
-      electron: 41.10.7
+      electron: 42.11.18
 
   '@electron-toolkit/tsconfig@2.0.0(@types/node@25.9.9)':
     dependencies:
       '@types/node': 25.9.9
 
-  '@electron-toolkit/utils@4.0.0(electron@41.10.7)':
+  '@electron-toolkit/utils@4.0.0(electron@42.11.18)':
     dependencies:
-      electron: 41.10.7
+      electron: 42.11.18
 
   '@electron/asar@3.4.1':
     dependencies:
@@ -14991,7 +14991,9 @@ snapshots:
       metro-runtime: 0.84.6
     transitivePeerDependencies:
       - '@babel/core'
+      - bufferutil
       - supports-color
+      - utf-8-validate
 
   '@react-native/normalize-colors@0.74.89': {}
 
@@ -15771,7 +15773,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.2.0
       '@types/keyv': 3.1.4
-      '@types/node': 25.9.9
+      '@types/node': 26.6.5
       '@types/responselike': 1.0.3
 
   '@types/chai@5.2.3':
@@ -15914,7 +15916,7 @@ snapshots:
 
   '@types/fs-extra@9.0.13':
     dependencies:
-      '@types/node': 25.9.9
+      '@types/node': 26.6.5
 
   '@types/geojson@7946.0.16': {}
 
@@ -15948,7 +15950,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 25.9.9
+      '@types/node': 26.6.5
 
   '@types/linkify-it@5.0.0': {}
 
@@ -15992,7 +15994,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 25.9.9
+      '@types/node': 26.6.5
 
   '@types/statuses@2.0.6':
     optional: true
@@ -17752,7 +17754,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@41.10.7:
+  electron@42.11.18:
     dependencies:
       '@electron-internal/extract-zip': 1.0.5
       '@electron/get': 5.1.0
@@ -19162,7 +19164,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.7.4
+      semver: 7.8.5
       serialize-error: 7.0.1
     optional: true
 
@@ -21299,11 +21301,11 @@ snapshots:
 
   node-abi@4.37.0:
     dependencies:
-      semver: 7.7.4
+      semver: 7.8.5
 
   node-api-version@0.2.1:
     dependencies:
-      semver: 7.7.4
+      semver: 7.8.5
 
   node-exports-info@1.6.0:
     dependencies:
@@ -21327,7 +21329,7 @@ snapshots:
       graceful-fs: 4.2.11
       nopt: 9.0.0
       proc-log: 6.1.0
-      semver: 7.7.4
+      semver: 7.8.5
       tar: 7.5.22
       tinyglobby: 0.2.17
       undici: 6.29.0
