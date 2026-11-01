@@ -59,7 +59,7 @@ catalogs:
       version: 0.19.0
     lucide-react:
       specifier: ^1.0.1
-      version: 1.57.0
+      version: 1.0.1
     mermaid:
       specifier: ^11.14.0
       version: 11.17.2
@@ -106,11 +106,11 @@ catalogs:
       specifier: ^2.6.0
       version: 2.9.1
     zod:
-      specifier: ^4.1.5
-      version: 4.3.6
+      specifier: ^4.6.6
+      version: 4.6.7
     zustand:
       specifier: ^5.0.0
-      version: 5.0.15
+      version: 5.0.12
 
 overrides:
   '@types/react': ^19.2.0
@@ -524,8 +524,8 @@ importers:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.19(yaml@2.9.1))
       zod:
-        specifier: ^4.1.5
-        version: 4.3.6
+        specifier: ^4.6.6
+        version: 4.6.7
       zustand:
         specifier: ^5.0.0
         version: 5.0.15(@types/react@19.2.14)(immer@11.1.4)(react@19.2.3)(use-sync-external-store@1.6.0(react@19.2.3))
@@ -680,7 +680,7 @@ importers:
         version: 1.4.0
       zod:
         specifier: 'catalog:'
-        version: 4.3.6
+        version: 4.6.7
     devDependencies:
       '@multica/eslint-config':
         specifier: workspace:*
@@ -744,7 +744,7 @@ importers:
         version: 2.9.1
       zod:
         specifier: 'catalog:'
-        version: 4.3.6
+        version: 4.6.7
       zustand:
         specifier: 'catalog:'
         version: 5.0.15(@types/react@19.2.14)(immer@11.1.4)(react@19.2.3)(use-sync-external-store@1.6.0(react@19.2.3))
@@ -14991,7 +14991,9 @@ snapshots:
       metro-runtime: 0.84.6
     transitivePeerDependencies:
       - '@babel/core'
+      - bufferutil
       - supports-color
+      - utf-8-validate
 
   '@react-native/normalize-colors@0.74.89': {}
 
